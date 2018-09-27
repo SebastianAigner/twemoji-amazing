@@ -1,3 +1,5 @@
+package io.sebi.twemojiamazing
+
 import com.beust.klaxon.Klaxon
 import java.io.File
 import java.net.URL
@@ -9,7 +11,7 @@ data class Emoji(val codes: String, val name: String)
 fun main(args: Array<String>) {
     val preamble = File("preamble.css")
     val preambleLines = preamble.readLines()
-    val json = URL("https://unpkg.com/emoji.json@11.0.0/emoji.json").readText()
+    val json = URL("https://unpkg.com/emoji.json/emoji.json").readText()
     val result = Klaxon().parseArray<Emoji>(json) ?: listOf()
     val new = result.filter {
         it.name.all { it.isLetter() || it == ' ' }
