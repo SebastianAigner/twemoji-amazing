@@ -2,7 +2,7 @@
 
 **Like Font-Awesome, but for Twitter Emojis, and also, it's amazing!** 🌟
 
-_An updated plug-and-play replacement for projects like [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)!_
+_An updated plug-and-play replacement for projects like [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)! Now with over 3,000 supported emojis!_
 
 ![twemoji-banner](twemoji-banner.png)
 

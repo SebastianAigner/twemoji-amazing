@@ -5,6 +5,9 @@ The graphics are licensed under the CC-BY 4.0: https://github.com/twitter/twemoj
 */
 
 
+/* Generated a total of ##CLASSCOUNT emoji CSS classes. */
+
+
 /*
 Preamble from https://ellekasai.github.io/twemoji-awesome/,
 licensed under MIT: https://ellekasai.mit-license.org/
@@ -60,3 +63,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     vertical-align: -0.5em;
     background-size: 5em 5em;
 }
+
+
+/* End preamble; begin emoji classes */
+
