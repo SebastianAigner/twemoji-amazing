@@ -13,33 +13,22 @@ import java.io.File
 import java.net.URL
 
 data class Emoji(val codes: String, val char: String, val name: String) {
-    val normalizedName: String
-        get() {
-            return name
-                    .toLowerCase()
-                    .replace("\\W+".toRegex(), "-") // replace all groups of non-word characters with dashes
-                    .replace("-*\\z".toRegex(), "") // trim dashes at the end of the string (e.g. converted parentheses)
-        }
+    val normalizedName: String = name
+            .toLowerCase()
+            .replace("\\W+".toRegex(), "-") // replace all groups of non-word characters with dashes
+            .replace("-*\\z".toRegex(), "") // trim dashes at the end of the string (e.g. converted parentheses)
 
-    val normalizedCodes: String
-        get() {
-            return codes
-                    .toLowerCase()
-                    .replace(" ", "-")
-        }
+    val normalizedCodes: String = codes
+            .toLowerCase()
+            .replace(" ", "-")
 
-    val twemojiUrl: String
-        get() {
-            return "https://twemoji.maxcdn.com/v/latest/svg/$normalizedCodes.svg"
-        }
+    val twemojiUrl: String = "https://twemoji.maxcdn.com/v/latest/svg/$normalizedCodes.svg"
 
-    fun toCssClass(): String {
-        return """
+    val cssClass: String = """
             .twa-${normalizedName} {
                 background-image: url("$twemojiUrl")
             }
         """.trimIndent()
-    }
 
     suspend fun isTwemojiAvailable(): Boolean {
         return client.head<HttpResponse>(twemojiUrl).status == HttpStatusCode.OK
@@ -76,7 +65,7 @@ fun main() {
     File("twemoji-amazing.css").printWriter().use { out ->
         out.println(File("preamble.css").readText().replace("##CLASSCOUNT", validatedEmojis.count().toString()))
         validatedEmojis.forEach {
-            out.println(it.toCssClass())
+            out.println(it.cssClass)
         }
     }
 }
