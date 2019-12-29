@@ -5,7 +5,7 @@ The graphics are licensed under the CC-BY 4.0: https://github.com/twitter/twemoj
 */
 
 
-/* Generated a total of 3005 emoji CSS classes. */
+/* Generated a total of 3019 emoji CSS classes. */
 
 
 /*
@@ -8054,8 +8054,50 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-wavy-dash {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/3030.svg")
 }
+.twa-copyright {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/a9.svg")
+}
+.twa-registered {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/ae.svg")
+}
 .twa-trade-mark {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2122.svg")
+}
+.twa-keycap {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/23-20e3.svg")
+}
+.twa-keycap {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2a-20e3.svg")
+}
+.twa-keycap-0 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/30-20e3.svg")
+}
+.twa-keycap-1 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/31-20e3.svg")
+}
+.twa-keycap-2 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/32-20e3.svg")
+}
+.twa-keycap-3 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/33-20e3.svg")
+}
+.twa-keycap-4 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/34-20e3.svg")
+}
+.twa-keycap-5 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/35-20e3.svg")
+}
+.twa-keycap-6 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/36-20e3.svg")
+}
+.twa-keycap-7 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/37-20e3.svg")
+}
+.twa-keycap-8 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/38-20e3.svg")
+}
+.twa-keycap-9 {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/39-20e3.svg")
 }
 .twa-keycap-10 {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f51f.svg")

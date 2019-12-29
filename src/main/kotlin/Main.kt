@@ -18,7 +18,7 @@ data class Emoji(val codes: String, val char: String, val name: String) {
             .replace("\\W+".toRegex(), "-") // replace all groups of non-word characters with dashes
             .replace("-*\\z".toRegex(), "") // trim dashes at the end of the string (e.g. converted parentheses)
 
-    val normalizedCodes: String = codes
+    val normalizedCodes: String = (if (codes.startsWith("00")) codes.substring(2) else codes)
             .toLowerCase()
             .replace(" ", "-")
 
