@@ -1,8 +1,8 @@
-# Twemoji-Amazing 💡
+# Twemoji-Amazing 💡 ![](https://img.shields.io/badge/emoji%20count-3360-brightgreen)
 
-**Like Font-Awesome, but for Twitter Emojis, and also, it's amazing!** 🌟
+**Like Font-Awesome, but for [Twitter Emojis](https://github.com/twitter/twemoji), and also, it's amazing!** 🌟
 
-_An updated plug-and-play replacement for projects like [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)! Now with over 3,000 supported emojis!_
+_An updated plug-and-play replacement for projects like [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)! Now with over 3,300 supported emojis!_
 
 ![twemoji-banner](twemoji-banner.png)
 
@@ -21,7 +21,7 @@ Like Font-Awesome (and Twemoji-Awesome), emoji sizes can be changed via `twa-lg`
 - Twemoji-Amazing uses [Emoji.json](https://github.com/amio/emoji.json) as its source of codepoints and descriptions.
 - To find an emoji of your liking, check out the [official Emoji list](https://unicode.org/emoji/charts/emoji-list.html). Replace spaces with hyphens to get the class name! (e.g. "man in suit levitating" becomes `twa-man-in-suit-levitating` 🕴)
 
-_Note for Twemoji-Awesome users: Twemoji-Amazing is designed to an almost-no-adjustments-needed replacement for twemoji-awesome. Due to its reliance on the now outdated [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/), some emojis might have slightly changed names._
+_Note for Twemoji-Awesome users: Twemoji-Amazing is designed to be an almost-no-adjustments-needed replacement for twemoji-awesome. Due to its reliance on the now outdated [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/), some emojis might have slightly changed names._
 
 #### Running the generator
 

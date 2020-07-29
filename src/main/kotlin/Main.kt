@@ -1,39 +1,8 @@
 package io.sebi.twemojiamazing
 
-import com.beust.klaxon.Klaxon
-import io.ktor.client.HttpClient
-import io.ktor.client.engine.apache.Apache
-import io.ktor.client.request.head
-import io.ktor.client.response.HttpResponse
-import io.ktor.http.HttpStatusCode
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
+import io.ktor.client.*
+import io.ktor.client.engine.apache.*
 import kotlinx.coroutines.runBlocking
-import java.io.File
-import java.net.URL
-
-data class Emoji(val codes: String, val char: String, val name: String) {
-    val normalizedName: String = name
-            .toLowerCase()
-            .replace("\\W+".toRegex(), "-") // replace all groups of non-word characters with dashes
-            .replace("-*\\z".toRegex(), "") // trim dashes at the end of the string (e.g. converted parentheses)
-
-    val normalizedCodes: String = (if (codes.startsWith("00")) codes.substring(2) else codes)
-            .toLowerCase()
-            .replace(" ", "-")
-
-    val twemojiUrl: String = "https://twemoji.maxcdn.com/v/latest/svg/$normalizedCodes.svg"
-
-    val cssClass: String = """
-            .twa-${normalizedName} {
-                background-image: url("$twemojiUrl")
-            }
-        """.trimIndent()
-
-    suspend fun isTwemojiAvailable(): Boolean {
-        return client.head<HttpResponse>(twemojiUrl).status == HttpStatusCode.OK
-    }
-}
 
 val client = HttpClient(Apache) {
     engine {
@@ -45,37 +14,18 @@ val client = HttpClient(Apache) {
 }
 
 fun main() {
-    val json = URL("https://unpkg.com/emoji.json/emoji.json").readText()
-    val emojis = Klaxon().parseArray<Emoji>(json) ?: listOf()
+    val allTwemojis = TwemojiProvider.getTwemojiCodePoints()
+    val emojisDotJson = EmojisDotJsonProvider.getEmojisDotJson()
 
-    println("Got a total of ${emojis.count()} emojis.")
-    println("Validating... (This might take a while)")
-
+    val joined = allTwemojis.map { twemojiCodepoint ->
+        (emojisDotJson.firstOrNull { it.normalizedCodes == twemojiCodepoint }
+                ?: CharacterResolver.resolveCodepoints(twemojiCodepoint)) //resolve emoji here
+    }
     val validatedEmojis = runBlocking {
-        emojis.asyncFilter {
+        joined.asyncFilter {
             it.isTwemojiAvailable()
         }
     }
-
-    println("Validation done.")
-    println("Validated ${validatedEmojis.count()} emojis (out of ${emojis.count()}).")
-
-    // Write CSS preamble and CSS classes to file
-
-    File("twemoji-amazing.css").printWriter().use { out ->
-        out.println(File("preamble.css").readText().replace("##CLASSCOUNT", validatedEmojis.count().toString()))
-        validatedEmojis.forEach {
-            out.println(it.cssClass)
-        }
-    }
-}
-
-suspend fun <T> List<T>.asyncFilter(transform: suspend (T) -> Boolean): List<T> {
-    return map { it to GlobalScope.async { transform(it) } }
-            .filter { (_, transformResult) ->
-                transformResult.await()
-            }
-            .map {
-                it.first
-            }
+    println(validatedEmojis.count())
+    CssFileWriter.writeEmojisToFile(validatedEmojis, "twemoji-amazing.css")
 }
