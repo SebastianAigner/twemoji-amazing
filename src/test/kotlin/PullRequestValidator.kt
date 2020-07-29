@@ -358,7 +358,7 @@ class PullRequestValidator(val emoji: String) {
 
     @Test
     fun shouldContainAllEmojisFromPullRequest() {
-        val amazing = File("twemoji-newmazing.css").readLines()
+        val amazing = File("twemoji-amazing.css").readLines()
         assert(amazing.any { it.contains("https://twemoji.maxcdn.com/v/latest/svg/$emoji.svg") }) {
             val emojiParts = emoji.split("-")
             """Expected $emoji to be present, was not.""".trimIndent()
