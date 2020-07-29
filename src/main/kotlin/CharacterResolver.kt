@@ -48,7 +48,7 @@ object CharacterResolver {
             "EMOJI MODIFIER FITZPATRICK TYPE-6" to "dark-skin-tone",
             "ZERO WIDTH JOINER" to "",
             "CHRISTMAS TREE" to "christmas",
-            "VARIATION SELECTOR-16" to "variation-16",
+            "VARIATION SELECTOR-16" to "",
             "MALE SIGN" to "male",
             "FEMALE SIGN" to "female"
     )
