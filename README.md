@@ -1,8 +1,8 @@
-# Twemoji-Amazing 💡 ![](https://img.shields.io/badge/emoji%20count-3360-brightgreen)
+# Twemoji-Amazing 💡 ![](https://img.shields.io/badge/emoji%20count-3577-brightgreen)
 
 **Like Font-Awesome, but for [Twitter Emojis](https://github.com/twitter/twemoji), and also, it's amazing!** 🌟
 
-_An updated plug-and-play replacement for projects like [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)! Now with over 3,300 supported emojis!_
+_An updated plug-and-play replacement for projects like [twemoji-awesome](https://github.com/ellekasai/twemoji-awesome)! Now with over 3,500 supported emojis!_
 
 ![twemoji-banner](twemoji-banner.png)
 
