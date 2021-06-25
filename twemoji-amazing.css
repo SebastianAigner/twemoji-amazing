@@ -5,7 +5,7 @@ The graphics are licensed under the CC-BY 4.0: https://github.com/twitter/twemoj
 */
 
 
-/* Generated a total of 3360 emoji CSS classes. */
+/* Generated a total of 3577 emoji CSS classes. */
 
 
 /*
@@ -659,6 +659,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-bullet-train {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f685.svg")
 }
+.twa-bullseye {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f3af.svg")
+}
 .twa-burrito {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f32f.svg")
 }
@@ -1061,14 +1064,314 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-couple-with-heart {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f491.svg")
 }
+.twa-couple-with-heart-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f491-1f3ff.svg")
+}
+.twa-couple-with-heart-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f491-1f3fb.svg")
+}
 .twa-couple-with-heart-man-man {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-200d-2764-fe0f-200d-1f468.svg")
+}
+.twa-couple-with-heart-man-man-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-man-man-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-man-man-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-man-man-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-man-man-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-man-man-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-man-man-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-man-man-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-man-man-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-man-man-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-man-man-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-man-man-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-man-man-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-man-man-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-man-man-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-man-man-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-man-man-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-man-man-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-man-man-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-man-man-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-man-man-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-man-man-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-man-man-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-man-man-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-man-man-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f491-1f3fe.svg")
+}
+.twa-couple-with-heart-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f491-1f3fc.svg")
+}
+.twa-couple-with-heart-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f491-1f3fd.svg")
+}
+.twa-couple-with-heart-person-person-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fb.svg")
+}
+.twa-couple-with-heart-person-person-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fe.svg")
+}
+.twa-couple-with-heart-person-person-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fc.svg")
+}
+.twa-couple-with-heart-person-person-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f9d1-1f3fd.svg")
+}
+.twa-couple-with-heart-person-person-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3ff.svg")
+}
+.twa-couple-with-heart-person-person-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fe.svg")
+}
+.twa-couple-with-heart-person-person-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fc.svg")
+}
+.twa-couple-with-heart-person-person-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f9d1-1f3fd.svg")
+}
+.twa-couple-with-heart-person-person-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3ff.svg")
+}
+.twa-couple-with-heart-person-person-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fb.svg")
+}
+.twa-couple-with-heart-person-person-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fc.svg")
+}
+.twa-couple-with-heart-person-person-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f9d1-1f3fd.svg")
+}
+.twa-couple-with-heart-person-person-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3ff.svg")
+}
+.twa-couple-with-heart-person-person-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fb.svg")
+}
+.twa-couple-with-heart-person-person-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fe.svg")
+}
+.twa-couple-with-heart-person-person-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f9d1-1f3fd.svg")
+}
+.twa-couple-with-heart-person-person-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3ff.svg")
+}
+.twa-couple-with-heart-person-person-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fb.svg")
+}
+.twa-couple-with-heart-person-person-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fe.svg")
+}
+.twa-couple-with-heart-person-person-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f9d1-1f3fc.svg")
 }
 .twa-couple-with-heart-woman-man {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-200d-2764-fe0f-200d-1f468.svg")
 }
+.twa-couple-with-heart-woman-man-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-man-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-man-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-man-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-man-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-man-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-man-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-man-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-man-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-man-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-man-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-man-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-man-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-man-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-man-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-man-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-man-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-man-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-man-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-man-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-man-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-man-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-man-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-man-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-man-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f468-1f3fc.svg")
+}
 .twa-couple-with-heart-woman-woman {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-200d-2764-fe0f-200d-1f469.svg")
+}
+.twa-couple-with-heart-woman-woman-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-woman-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-woman-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-woman-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-woman-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f469-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-woman-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-woman-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-woman-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-woman-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-woman-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f469-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f469-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fc.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f469-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fd.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3ff.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fb.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fe.svg")
+}
+.twa-couple-with-heart-woman-woman-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f469-1f3fc.svg")
 }
 .twa-cow {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f404.svg")
@@ -1298,9 +1601,6 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-dim-button {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f505.svg")
 }
-.twa-direct-hit {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f3af.svg")
-}
 .twa-disappointed-face {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f61e.svg")
 }
@@ -1318,9 +1618,6 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-dizzy {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f4ab.svg")
-}
-.twa-dizzy-face {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f635.svg")
 }
 .twa-dna {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9ec.svg")
@@ -1520,9 +1817,6 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-ewe {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f411.svg")
 }
-.twa-exclamation-mark {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2757.svg")
-}
 .twa-exclamation-question-mark {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2049.svg")
 }
@@ -1543,6 +1837,12 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-face-blowing-a-kiss {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f618.svg")
+}
+.twa-face-exhaling {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f62e-200d-1f4a8.svg")
+}
+.twa-face-in-clouds {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f636-200d-1f32b-fe0f.svg")
 }
 .twa-face-savoring-food {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f60b.svg")
@@ -1573,6 +1873,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-face-with-rolling-eyes {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f644.svg")
+}
+.twa-face-with-spiral-eyes {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f635-200d-1f4ab.svg")
 }
 .twa-face-with-steam-from-nose {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f624.svg")
@@ -3011,6 +3314,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-heart-exclamation {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2763.svg")
 }
+.twa-heart-on-fire {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2764-fe0f-200d-1f525.svg")
+}
 .twa-heart-suit {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2665.svg")
 }
@@ -3356,17 +3662,317 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-kiss {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48f.svg")
 }
+.twa-kiss-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48f-1f3ff.svg")
+}
+.twa-kiss-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48f-1f3fb.svg")
+}
 .twa-kiss-man-man {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-200d-2764-fe0f-200d-1f48b-200d-1f468.svg")
+}
+.twa-kiss-man-man-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-man-man-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-man-man-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-man-man-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-man-man-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-man-man-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-man-man-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-man-man-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-man-man-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-man-man-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-man-man-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-man-man-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-man-man-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-man-man-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-man-man-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-man-man-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-man-man-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-man-man-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-man-man-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-man-man-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-man-man-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-man-man-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-man-man-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-man-man-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-man-man-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
 }
 .twa-kiss-mark {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48b.svg")
 }
+.twa-kiss-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48f-1f3fe.svg")
+}
+.twa-kiss-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48f-1f3fc.svg")
+}
+.twa-kiss-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f48f-1f3fd.svg")
+}
+.twa-kiss-person-person-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.svg")
+}
+.twa-kiss-person-person-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.svg")
+}
+.twa-kiss-person-person-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.svg")
+}
+.twa-kiss-person-person-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.svg")
+}
+.twa-kiss-person-person-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.svg")
+}
+.twa-kiss-person-person-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.svg")
+}
+.twa-kiss-person-person-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.svg")
+}
+.twa-kiss-person-person-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.svg")
+}
+.twa-kiss-person-person-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.svg")
+}
+.twa-kiss-person-person-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.svg")
+}
+.twa-kiss-person-person-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.svg")
+}
+.twa-kiss-person-person-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.svg")
+}
+.twa-kiss-person-person-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.svg")
+}
+.twa-kiss-person-person-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.svg")
+}
+.twa-kiss-person-person-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.svg")
+}
+.twa-kiss-person-person-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fd.svg")
+}
+.twa-kiss-person-person-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3ff.svg")
+}
+.twa-kiss-person-person-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fb.svg")
+}
+.twa-kiss-person-person-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fe.svg")
+}
+.twa-kiss-person-person-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f9d1-1f3fc.svg")
+}
 .twa-kiss-woman-man {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-200d-2764-fe0f-200d-1f48b-200d-1f468.svg")
 }
+.twa-kiss-woman-man-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-woman-man-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-woman-man-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-woman-man-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-woman-man-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-woman-man-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-woman-man-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-woman-man-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-woman-man-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-woman-man-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-woman-man-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-woman-man-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-woman-man-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-woman-man-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-woman-man-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-woman-man-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
+.twa-kiss-woman-man-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-woman-man-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-woman-man-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-woman-man-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-woman-man-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fd.svg")
+}
+.twa-kiss-woman-man-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3ff.svg")
+}
+.twa-kiss-woman-man-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fb.svg")
+}
+.twa-kiss-woman-man-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fe.svg")
+}
+.twa-kiss-woman-man-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f468-1f3fc.svg")
+}
 .twa-kiss-woman-woman {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-200d-2764-fe0f-200d-1f48b-200d-1f469.svg")
+}
+.twa-kiss-woman-woman-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.svg")
+}
+.twa-kiss-woman-woman-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.svg")
+}
+.twa-kiss-woman-woman-dark-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.svg")
+}
+.twa-kiss-woman-woman-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.svg")
+}
+.twa-kiss-woman-woman-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.svg")
+}
+.twa-kiss-woman-woman-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.svg")
+}
+.twa-kiss-woman-woman-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.svg")
+}
+.twa-kiss-woman-woman-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.svg")
+}
+.twa-kiss-woman-woman-light-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.svg")
+}
+.twa-kiss-woman-woman-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.svg")
+}
+.twa-kiss-woman-woman-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.svg")
+}
+.twa-kiss-woman-woman-medium-dark-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.svg")
+}
+.twa-kiss-woman-woman-medium-dark-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.svg")
+}
+.twa-kiss-woman-woman-medium-dark-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.svg")
+}
+.twa-kiss-woman-woman-medium-dark-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.svg")
+}
+.twa-kiss-woman-woman-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.svg")
+}
+.twa-kiss-woman-woman-medium-light-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.svg")
+}
+.twa-kiss-woman-woman-medium-light-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.svg")
+}
+.twa-kiss-woman-woman-medium-light-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.svg")
+}
+.twa-kiss-woman-woman-medium-light-skin-tone-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.svg")
+}
+.twa-kiss-woman-woman-medium-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fd.svg")
+}
+.twa-kiss-woman-woman-medium-skin-tone-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3ff.svg")
+}
+.twa-kiss-woman-woman-medium-skin-tone-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fb.svg")
+}
+.twa-kiss-woman-woman-medium-skin-tone-medium-dark-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fe.svg")
+}
+.twa-kiss-woman-woman-medium-skin-tone-medium-light-skin-tone {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-2764-fe0f-200d-1f48b-200d-1f469-1f3fc.svg")
 }
 .twa-kissing-cat {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f63d.svg")
@@ -3388,6 +3994,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-kiwi-fruit {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f95d.svg")
+}
+.twa-knocked-out-face {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f635.svg")
 }
 .twa-knot {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1faa2.svg")
@@ -3681,7 +4290,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-200d-1f9b2.svg")
 }
 .twa-man-beard {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4.svg")
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-200d-2642-fe0f.svg")
 }
 .twa-man-biking {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f6b4-200d-2642-fe0f.svg")
@@ -3843,7 +4452,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3ff-200d-1f9b2.svg")
 }
 .twa-man-dark-skin-tone-beard {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3ff.svg")
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3ff-200d-2642-fe0f.svg")
 }
 .twa-man-dark-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3ff-200d-2642-fe0f.svg")
@@ -4356,7 +4965,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fb-200d-1f9b2.svg")
 }
 .twa-man-light-skin-tone-beard {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fb.svg")
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fb-200d-2642-fe0f.svg")
 }
 .twa-man-light-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fb-200d-2642-fe0f.svg")
@@ -4416,7 +5025,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fe-200d-1f9b2.svg")
 }
 .twa-man-medium-dark-skin-tone-beard {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fe.svg")
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fe-200d-2642-fe0f.svg")
 }
 .twa-man-medium-dark-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fe-200d-2642-fe0f.svg")
@@ -4440,7 +5049,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fc-200d-1f9b2.svg")
 }
 .twa-man-medium-light-skin-tone-beard {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fc.svg")
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fc-200d-2642-fe0f.svg")
 }
 .twa-man-medium-light-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fc-200d-2642-fe0f.svg")
@@ -4464,7 +5073,7 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f468-1f3fd-200d-1f9b2.svg")
 }
 .twa-man-medium-skin-tone-beard {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fd.svg")
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fd-200d-2642-fe0f.svg")
 }
 .twa-man-medium-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fd-200d-2642-fe0f.svg")
@@ -5134,6 +5743,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-men-wrestling {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f93c-200d-2642-fe0f.svg")
+}
+.twa-mending-heart {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2764-fe0f-200d-1fa79.svg")
 }
 .twa-menorah {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f54e.svg")
@@ -5954,6 +6566,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-person-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-200d-1f9b2.svg")
 }
+.twa-person-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4.svg")
+}
 .twa-person-biking {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f6b4.svg")
 }
@@ -6055,6 +6670,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-person-dark-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3ff-200d-1f9b2.svg")
+}
+.twa-person-dark-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3ff.svg")
 }
 .twa-person-dark-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3ff.svg")
@@ -6401,6 +7019,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-person-light-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fb-200d-1f9b2.svg")
 }
+.twa-person-light-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fb.svg")
+}
 .twa-person-light-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fb.svg")
 }
@@ -6418,6 +7039,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-person-medium-dark-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fe-200d-1f9b2.svg")
+}
+.twa-person-medium-dark-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fe.svg")
 }
 .twa-person-medium-dark-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fe.svg")
@@ -6437,6 +7061,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-person-medium-light-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fc-200d-1f9b2.svg")
 }
+.twa-person-medium-light-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fc.svg")
+}
 .twa-person-medium-light-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fc.svg")
 }
@@ -6454,6 +7081,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-person-medium-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d1-1f3fd-200d-1f9b2.svg")
+}
+.twa-person-medium-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fd.svg")
 }
 .twa-person-medium-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fd.svg")
@@ -6896,9 +7526,6 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-pisces {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2653.svg")
 }
-.twa-pistol {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f52b.svg")
-}
 .twa-pizza {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f355.svg")
 }
@@ -7076,9 +7703,6 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-puzzle-piece {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9e9.svg")
 }
-.twa-question-mark {
-    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2753.svg")
-}
 .twa-rabbit {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f407.svg")
 }
@@ -7211,6 +7835,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-red-envelope {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9e7.svg")
 }
+.twa-red-exclamation-mark {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2757.svg")
+}
 .twa-red-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9b0.svg")
 }
@@ -7219,6 +7846,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-red-paper-lantern {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f3ee.svg")
+}
+.twa-red-question-mark {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/2753.svg")
 }
 .twa-red-square {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f7e5.svg")
@@ -8477,6 +9107,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-water-closet {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f6be.svg")
 }
+.twa-water-pistol {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f52b.svg")
+}
 .twa-water-wave {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f30a.svg")
 }
@@ -8711,6 +9344,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-woman-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-200d-1f9b2.svg")
 }
+.twa-woman-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-200d-2640-fe0f.svg")
+}
 .twa-woman-biking {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f6b4-200d-2640-fe0f.svg")
 }
@@ -8869,6 +9505,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-woman-dark-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3ff-200d-1f9b2.svg")
+}
+.twa-woman-dark-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3ff-200d-2640-fe0f.svg")
 }
 .twa-woman-dark-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3ff-200d-2640-fe0f.svg")
@@ -9344,6 +9983,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-woman-light-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fb-200d-1f9b2.svg")
 }
+.twa-woman-light-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fb-200d-2640-fe0f.svg")
+}
 .twa-woman-light-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fb-200d-2640-fe0f.svg")
 }
@@ -9401,6 +10043,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-woman-medium-dark-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fe-200d-1f9b2.svg")
 }
+.twa-woman-medium-dark-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fe-200d-2640-fe0f.svg")
+}
 .twa-woman-medium-dark-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fe-200d-2640-fe0f.svg")
 }
@@ -9422,6 +10067,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 .twa-woman-medium-light-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fc-200d-1f9b2.svg")
 }
+.twa-woman-medium-light-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fc-200d-2640-fe0f.svg")
+}
 .twa-woman-medium-light-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fc-200d-2640-fe0f.svg")
 }
@@ -9442,6 +10090,9 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 .twa-woman-medium-skin-tone-bald {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f469-1f3fd-200d-1f9b2.svg")
+}
+.twa-woman-medium-skin-tone-beard {
+    background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f9d4-1f3fd-200d-2640-fe0f.svg")
 }
 .twa-woman-medium-skin-tone-blond-hair {
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f471-1f3fd-200d-2640-fe0f.svg")
