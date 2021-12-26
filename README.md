@@ -29,7 +29,7 @@ Like Font-Awesome (and Twemoji-Awesome), emoji sizes can be changed via `twa-lg`
 
 _Note for Twemoji-Awesome users: Twemoji-Amazing is designed to be an almost-no-adjustments-needed replacement for twemoji-awesome. However, the naming scheme for twemoji-awesome was based on [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/), which is now outdated. This means some emojis might have changed names._
 
-#### Running the generator
+### Running the generator
 
 `./gradlew run` will generate a fresh version of the twemoji-amazing file in the root directory of the project.
 
