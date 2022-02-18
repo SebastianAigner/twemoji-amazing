@@ -1,7 +1,6 @@
 package io.sebi.twemojiamazing
 
 import io.ktor.client.request.*
-import io.ktor.client.response.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 
@@ -15,7 +14,7 @@ data class Emoji(val codes: String, val char: String, val name: String) {
             .lowercase()
             .replace(" ", "-")
 
-    val twemojiUrl: String = "https://twemoji.maxcdn.com/v/latest/svg/$normalizedCodes.svg"
+    private val twemojiUrl: String = "https://twemoji.maxcdn.com/v/latest/svg/$normalizedCodes.svg"
 
     val cssClass: String = """
             .twa-${normalizedName} {
