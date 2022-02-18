@@ -348,7 +348,7 @@ e50a
 """.lines().filterNot { it.isBlank() }
 
 @RunWith(Parameterized::class)
-class PullRequestValidator(val emoji: String) {
+class PullRequestValidator(private val emoji: String) {
 
     companion object {
         @JvmStatic
@@ -360,7 +360,6 @@ class PullRequestValidator(val emoji: String) {
     fun shouldContainAllEmojisFromPullRequest() {
         val amazing = File("twemoji-amazing.css").readLines()
         assert(amazing.any { it.contains("https://twemoji.maxcdn.com/v/latest/svg/$emoji.svg") }) {
-            val emojiParts = emoji.split("-")
             """Expected $emoji to be present, was not.""".trimIndent()
         }
     }
