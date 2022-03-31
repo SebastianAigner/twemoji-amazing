@@ -1,0 +1,65 @@
+name: Generate CSS
+
+on: [ push, pull_request, workflow_dispatch ]
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Java
+      uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 11
+
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+
+    - name: Execute Gradle build
+      run: |
+        ./gradlew run
+        ./gradlew assemble testClasses -Pkotlin.incremental=false --no-daemon
+        ./gradlew check -Pkotlin.incremental=false --no-daemon
+
+    - name: Push emoji stylesheet artifact
+      uses: actions/upload-artifact@v3
+      with:
+        path: twemoji-amazing.css
+
+  push_release:
+    if: |
+      github.event_name == 'workflow_dispatch' &&
+      github.repository == 'SebastianAigner/twemoji-amazing'
+    needs: build_css
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Download artifacts
+      uses: actions/download-artifact@v3
+
+    - name: Push release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        mv artifact/twemoji-amazing.css twemoji-amazing.css
+        commit=`git rev-list HEAD --count`
+        hash=`git rev-parse HEAD`
+        gh release create 1.$commit twemoji-amazing.css --target $hash -t "twemoji-amazing 1.$commit"
+
+    - name: Push emoji stylesheet to repository
+      run: |
+        time=`date '+%Y-%m-%d %H:%M:%S %A (%Z %z)'`
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name  "github-actions[bot]"
+        git add twemoji-amazing.css || true
+        git commit -m "Update twemoji - $time" || true
+        git push origin || true
