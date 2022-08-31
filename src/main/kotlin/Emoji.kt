@@ -7,6 +7,8 @@ import io.ktor.http.*
 data class Emoji(val codes: String, val char: String, val name: String) {
     val normalizedName: String = name
             .lowercase()
+            .replace("#", "number")
+            .replace("*", "star")
             .replace("\\W+".toRegex(), "-") // replace all groups of non-word characters with dashes
             .replace("-*\\z".toRegex(), "") // trim dashes at the end of the string (e.g. converted parentheses)
 

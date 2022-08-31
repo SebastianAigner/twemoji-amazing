@@ -1,6 +1,7 @@
 plugins {
     application
-    kotlin("jvm") version "1.6.10"
+    kotlin("jvm") version "1.7.10"
+    kotlin("plugin.serialization") version "1.7.10"
 }
 
 application {
@@ -21,6 +22,7 @@ dependencies {
     implementation("io.ktor:ktor-client-core:1.6.7")
     implementation("io.ktor:ktor-client-apache:1.6.7")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {

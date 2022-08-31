@@ -1,4 +1,4 @@
-# Twemoji-Amazing 💡 ![](https://img.shields.io/badge/emoji%20count-3577-brightgreen)
+# Twemoji-Amazing 💡 ![](https://img.shields.io/badge/emoji%20count-3689-brightgreen)
 
 **Like Font-Awesome, but for [Twitter Emojis](https://github.com/twitter/twemoji), and also, it's amazing!** 🌟
 
