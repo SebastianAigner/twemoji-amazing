@@ -11,7 +11,7 @@ _An updated plug-and-play replacement for projects like [twemoji-awesome](https:
 ### Getting the CSS file
 You can either download the CSS file from the [Releases](https://github.com/SebastianAigner/twemoji-amazing/releases/latest) page, or use a CDN such as JsDelivr:
 ```
-https://cdn.jsdelivr.net/gh/SebastianAigner/twemoji-amazing@1.1.0/twemoji-amazing.css
+https://cdn.jsdelivr.net/gh/SebastianAigner/twemoji-amazing@1.2.0/twemoji-amazing.css
 ```
 
 ### Using the CSS classes
