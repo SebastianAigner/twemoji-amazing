@@ -3,7 +3,9 @@ package io.sebi.twemojiamazing
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class Emoji(val codes: String, val char: String, val name: String) {
     val normalizedName: String = name
             .lowercase()
@@ -25,8 +27,6 @@ data class Emoji(val codes: String, val char: String, val name: String) {
         """.trimIndent()
 
     suspend fun isTwemojiAvailable(): Boolean {
-        return client.head<HttpStatement>(twemojiUrl).execute {
-            it.status == HttpStatusCode.OK
-        }
+        return client.head(twemojiUrl).status == HttpStatusCode.OK
     }
 }

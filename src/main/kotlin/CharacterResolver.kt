@@ -3,6 +3,7 @@ package io.sebi.twemojiamazing
 import io.ktor.client.*
 import io.ktor.client.engine.apache.*
 import io.ktor.client.request.*
+import io.ktor.client.statement.*
 import kotlinx.coroutines.runBlocking
 
 object CharacterResolver {
@@ -21,7 +22,7 @@ object CharacterResolver {
 
     private fun resolveUnicodeCharacter(codepoint: String): String {
         val text = runBlocking {
-            fileformatClient.get<String>("https://www.fileformat.info/info/unicode/char/$codepoint/index.htm")
+            fileformatClient.get("https://www.fileformat.info/info/unicode/char/$codepoint/index.htm").bodyAsText()
         }
         val lines = text.lines()
         val characterNameIndex = lines.indexOfFirst { it.contains("<td>Name</td>") }

@@ -1,18 +1,24 @@
 package io.sebi.twemojiamazing
 
-import com.beust.klaxon.Klaxon
 import io.ktor.client.request.*
+import io.ktor.client.statement.*
 import kotlinx.coroutines.runBlocking
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
 
 object TwemojiProvider {
-    class Response(val tree: Array<RepositoryFile>)
+
+    @Serializable
+    class Response(val tree: List<RepositoryFile>)
+    @Serializable
     data class RepositoryFile(val path: String, val type: String, val url: String)
 
-    private fun getRepositoryFiles(url: String): Array<RepositoryFile> {
+    private fun getRepositoryFiles(url: String): List<RepositoryFile> {
         val response = runBlocking {
-            client.get<String>(url)
+            client.get(url).bodyAsText()
         }
-        return Klaxon().parse<Response>(response)!!.tree
+
+        return json.decodeFromString<Response>(response).tree
     }
 
     fun getTwemojiCodePoints(): List<String> {
@@ -22,6 +28,4 @@ object TwemojiProvider {
         val svgTree = getRepositoryFiles(assetsTree.first { it.path == "svg" }.url)
         return svgTree.map { it.path.removeSuffix(".svg") }
     }
-
-
 }
