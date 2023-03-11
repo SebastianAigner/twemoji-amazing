@@ -22,7 +22,7 @@ fun main() {
                 ?: CharacterResolver.resolveCodepoints(twemojiCodepoint)) //resolve emoji here
     }
     val validatedEmojis = runBlocking {
-        joined.asyncFilter {
+        joined.asyncFilter(this) {
             it.isTwemojiAvailable()
         }
     }
