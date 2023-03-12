@@ -1,7 +1,6 @@
 package io.sebi.twemojiamazing
 
 import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
 import java.net.URL
 
 object EmojisDotJsonProvider {

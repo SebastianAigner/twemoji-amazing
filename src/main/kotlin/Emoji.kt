@@ -1,7 +1,6 @@
 package io.sebi.twemojiamazing
 
 import io.ktor.client.request.*
-import io.ktor.client.statement.*
 import io.ktor.http.*
 import kotlinx.serialization.Serializable
 
