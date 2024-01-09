@@ -26,7 +26,7 @@ jobs:
         ./gradlew check -Pkotlin.incremental=false --no-daemon
 
     - name: Push emoji stylesheet artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         path: twemoji-amazing.css
 
